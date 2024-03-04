@@ -15,6 +15,7 @@
 # +
 import time
 import requests
+import numpy as np
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
@@ -72,6 +73,10 @@ def checkVideoExistence(url):
         'locale': 'en',
         'tt': 'eEx5VnE_',
     }
+
+    # Generate a random sleep time, clipped to the range [10, 15], done to avoid locking out
+    sleep_time = np.clip(np.random.normal(12.5, 5), 10, 15)
+    time.sleep(sleep_time)
     
     # Make the POST request to check video availability
     response = requests.post('https://ssstik.io/abc', params=params, cookies=cookies, headers=headers, data=data)
@@ -88,7 +93,7 @@ def checkVideoExistence(url):
     else:
         return 'Available'
 
-def downloadVideo(url, id, username, directory='../output/tiktok_videos'):
+def downloadVideo(url, id, username, directory='tiktok_videos'):
     """
     Downloads a video from a given URL and saves it to a specified directory.
     
@@ -142,6 +147,10 @@ def downloadVideo(url, id, username, directory='../output/tiktok_videos'):
         'locale': 'en',
         'tt': 'eEx5VnE_',
     }
+
+    # Generate a random sleep time, clipped to the range [10, 15], done to avoid locking out
+    sleep_time = np.clip(np.random.normal(12.5, 5), 10, 15)
+    time.sleep(sleep_time)
     
     # Make the POST request to get the download link
     response = requests.post('https://ssstik.io/abc', params=params, cookies=cookies, headers=headers, data=data)
