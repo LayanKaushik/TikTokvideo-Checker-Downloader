@@ -101,7 +101,7 @@ def downloadVideo(url, id, username, directory='tiktok_videos'):
         url (str): The URL of the video to download.
         id (str): The ID of the video.
         username (str): The username of the video's uploader.
-        directory (str, optional): The directory where the video will be saved. Defaults to '../output/tiktok_videos'.
+        directory (str, optional): The directory where the video will be saved. Defaults to 'tiktok_videos'.
     """
     
     # Cookies required to bypass the site's security checks
