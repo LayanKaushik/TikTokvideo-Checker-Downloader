@@ -2,10 +2,6 @@
 
 This tool enables users to verify the public availability of TikTok videos and download them using a specified URL. It performs web requests to TikTok's servers to retrieve video information and facilitates content downloading.
 
-## Disclaimer
-
-This is not an official TikTok downloader. It utilizes third-party websites to check and download TikTok videos. Ensure you have the right to download content from TikTok and use this tool responsibly and ethically.
-
 ## Features
 
 - **Check Video Availability:** Determines if a TikTok video is publicly available online.
@@ -51,4 +47,4 @@ Contributions are welcome! If you have improvements or bug fixes, please fork th
 
 ## Disclaimer
 
-This tool is intended for educational and research purposes only and is not an official TikTok downloader. It uses third-party websites to check and download TikTok videos. Ensure you are compliant with TikTok's terms of service and copyright laws in your jurisdiction. The developer is not responsible for any misuse of this tool or legal repercussions that come from downloading copyrighted content without permission.
+This tool is intended for educational and research purposes only and is not an official TikTok downloader. It uses third-party websites to check and download TikTok videos. Ensure you are compliant with TikTok's terms of service and copyright laws in your jurisdiction and ensure you have the right to download content from TikTok and use this tool responsibly and ethically. The developer is not responsible for any misuse of this tool or legal repercussions that come from downloading copyrighted content without permission.
