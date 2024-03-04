@@ -23,7 +23,7 @@ To ensure this tool functions correctly, you must update the cookies and headers
 2. Open your browser's Developer Tools (F12 or right-click -> "Inspect").
 3. Navigate to the "Network" tab.
 4. Paste any TikTok video link in the input box on ssstik.io and click the download button.
-5. Look for a network request named `abc?url=dl`.
+5. Look for a network request named `abc?url=dl` in the Developer Tools.
 6. Right-click on the request and choose "Copy as cURL (bash)".
 7. Visit [curlconverter.com](https://curlconverter.com/) and paste the copied cURL command.
 8. Convert the command to Python code to update the `cookies` and `headers` variables in your script accordingly.
